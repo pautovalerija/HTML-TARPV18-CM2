@@ -2,10 +2,14 @@
     --dark-color: #3c4245;
     --light-color: #719192;
 }
+html{
+    font-family: 'Quicksand', sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 .top-container{
@@ -18,6 +22,7 @@ body{
     margin: 0 auto;
     border: 2px solid white;
     position: relative;
+    text-align: center;
 }
 .cloud{
     position: absolute;
@@ -25,4 +30,29 @@ body{
 .mountain{
     position: absolute;
     bottom: 0;
+    left: 0%;
+}
+.cloud1{
+    left: 50%;
+    right: 10%;
+    top: 20%;
+}
+.cloud2{
+    left: 10%;
+    right: 10%;
+    top: 40%;
+}
+h1{
+    font-family: 'Long Cang', cursive;
+}
+.underlined{
+    text-decoration: underline;
+}
+.profile{
+    width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+.profile_image{
+    width: 200px;
 }
