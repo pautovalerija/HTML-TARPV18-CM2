@@ -54,5 +54,19 @@ h1{
     text-align: center;
 }
 .profile_image{
-    width: 200px;
+    width: 100px;
+}
+.skills img{
+    width: 100px;
+}
+.img-skill2{
+    width: 100px;
+    float: right;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.middle-container{
+    width: 800px;
+    margin: 0 auto;
 }
